@@ -1,4 +1,5 @@
 import React from 'react'
+import Total from './Total'
 import './App.css';
 
 class Product extends React.Component {
@@ -12,10 +13,7 @@ class Product extends React.Component {
         <img src={this.props.image} alt={this.props.name}/>
         <h4>{this.props.name}</h4>
         <p>{this.props.description}</p>
-        <div>
-          <p>{this.props.price}</p>
-          <p>{this.props.shippingCost}</p>
-        </div>
+        <Total {...this.props} />
       </div>
     )
   }
