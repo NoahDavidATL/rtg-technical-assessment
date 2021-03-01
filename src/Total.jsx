@@ -1,7 +1,7 @@
 import React from 'react'
 import './App.css';
 
-class Product extends React.Component {
+class Total extends React.Component {
   constructor(props){
     super(props)
     this.state = {
@@ -27,4 +27,4 @@ class Product extends React.Component {
   }
 }
 
-export default Product;
+export default Total;
