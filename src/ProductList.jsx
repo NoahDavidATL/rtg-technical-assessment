@@ -3,7 +3,7 @@ import Product from './Product'
 import product_data from './product_data'
 import './App.css';
 
-class Products extends React.Component {
+class ProductList extends React.Component {
   constructor(props) {
     super(props)
     this.state = {
@@ -38,4 +38,4 @@ class Products extends React.Component {
   }
 }
 
-export default Products;
+export default ProductList;

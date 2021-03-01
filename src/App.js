@@ -1,10 +1,10 @@
 import './App.css';
-import Products from './Products'
+import ProductList from './ProductList'
 
 const App = () => {
   return (
     <div className="App">
-      <Products />
+      <ProductList />
     </div>
   );
 }
