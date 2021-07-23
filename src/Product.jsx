@@ -1,5 +1,6 @@
 import React from 'react'
 import './App.css';
+import Total from './Total'
 
 class Product extends React.Component {
   constructor(props){
@@ -15,6 +16,7 @@ class Product extends React.Component {
         <div>
           <p>{this.props.price}</p>
           <p>{this.props.shippingCost}</p>
+          <Total {...this.props} />
         </div>
       </div>
     )
