@@ -10,8 +10,9 @@ class Total extends React.Component {
   }
 
   componentDidMount() {
+    let total = this.state;
     this.setState({
-      total: this.props.price + this.props.shippingCost
+      total: this.props.price += this.props.shippingCost
     })
   }
 
