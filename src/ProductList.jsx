@@ -23,12 +23,12 @@ export const ProductList = () => {
       {!loading && (
         products.map(item =>
           <Product
-              key={item.id}
-              name={item.name}
-              description={item.description}
-              price={item.price}
-              image={item.image}
-              shippingCost={item.shippingCost}
+            key={item.id}
+            name={item.name}
+            description={item.description}
+            price={item.price}
+            image={item.image}
+            shippingCost={item.shippingCost}
           />
         )
       )}
