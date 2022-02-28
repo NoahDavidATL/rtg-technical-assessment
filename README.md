@@ -6,7 +6,7 @@
 - [ ] Talk us through the `Todo` steps below, feel free to ask questions and to Google answers
 
 # Todo
-- [ ] Convert `ProductList.jsx` to a functional component
 - [ ] Convert `Product.jsx` to a functional component
+- [ ] Convert `ProductList.jsx` to a functional component
 - [ ] Review the open Pull Request on GitHub from a Junior Developer
 - [ ] Reserve 10 minutes at the end of the assessment to ask us questions you have about the position/work
