@@ -1,24 +1,17 @@
 import React from 'react'
 import './App.css';
+import { Total } from './Total'
 
-class Product extends React.Component {
-  constructor(props){
-    super(props)
-  }
+export const Product = (props) => {
+    /* deconstruct the props */
+    const {image, name, description: desc, shippingCost: shipping} = props;
 
-  render() {
     return (
-      <div className="Product">
-        <img src={this.props.image} alt={this.props.name}/>
-        <h4>{this.props.name}</h4>
-        <p>{this.props.description}</p>
-        <div>
-          <p>{this.props.price}</p>
-          <p>{this.props.shippingCost}</p>
+        <div className="Product">
+            <img src={image} alt={name}/>
+            <h4>{name}</h4>
+            <p>{desc}</p>
+            <Total {...props} />
         </div>
-      </div>
     )
-  }
 }
-
-export default Product;
